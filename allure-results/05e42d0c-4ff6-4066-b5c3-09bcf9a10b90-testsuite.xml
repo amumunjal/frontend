@@ -1,0 +1,309 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630832272127' stop='1630832274356'>
+    <name>home page tests</name>
+    <title>home page tests</title>
+    <test-cases>
+        <test-case start='1630832272127' status='broken' stop='1630832274205'>
+            <name>verify browser initiation and page title</name>
+            <title>verify browser initiation and page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.63'/>
+            </parameters>
+            <steps>
+                <step start='1630832272146' status='passed' stop='1630832274086'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='706a3c21-5ea1-42ed-95dc-65316be6856d-attachment.json' type='application/json' size='138'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1630832274087' status='passed' stop='1630832274115'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630832274118' status='broken' stop='1630832274205'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fcd97b3e-fb34-4ddd-a469-a83de995dfad-attachment.json' type='application/json' size='62'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=93.0.4577.63)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x0085A2D3+2663123]
+                	Ordinal0 [0x007EA491+2204817]
+                	Ordinal0 [0x006D2118+1057048]
+                	Ordinal0 [0x006BBBC6+965574]
+                	Ordinal0 [0x00717D49+1342793]
+                	Ordinal0 [0x00724512+1393938]
+                	Ordinal0 [0x0071589B+1333403]
+                	Ordinal0 [0x006F1F74+1187700]
+                	Ordinal0 [0x006F2DC9+1191369]
+                	GetHandleVerifier [0x009F30D6+1610054]
+                	GetHandleVerifier [0x00A9B53B+2299307]
+                	GetHandleVerifier [0x008E8DA9+519705]
+                	GetHandleVerifier [0x008E7759+513993]
+                	Ordinal0 [0x007F112D+2232621]
+                	Ordinal0 [0x007F55F8+2250232]
+                	Ordinal0 [0x007F5732+2250546]
+                	Ordinal0 [0x007FE591+2286993]
+                	BaseThreadInitThunk [0x774FFA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77937A7E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77937A4E+238]
+                    at Browser.runCommandWithHooks (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.wrapCommandFn (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Browser.&lt;anonymous> (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\utils\build\shim.js:239:24)
+                    at global.$ (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\runner\build\index.js:190:42)
+                    at HomePage.get pageTitle [as pageTitle] (C:\Users\61470\Downloads\FrontEndTest\pages\homepage.js:6:38)
+                    at Context.&lt;anonymous> (C:\Users\61470\Downloads\FrontEndTest\test\home.element.js:14:21)
+                    at Context.executeSync (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1630832274207' status='broken' stop='1630832274235'>
+            <name>verify subscribe button shows podcast list</name>
+            <title>verify subscribe button shows podcast list</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.63'/>
+            </parameters>
+            <steps>
+                <step start='1630832274212' status='broken' stop='1630832274235'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d5a637e8-de16-49c2-ba23-a8967b1236aa-attachment.json' type='application/json' size='115'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=93.0.4577.63)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x0085A2D3+2663123]
+                	Ordinal0 [0x007EA491+2204817]
+                	Ordinal0 [0x006D2118+1057048]
+                	Ordinal0 [0x006BBBC6+965574]
+                	Ordinal0 [0x00717D49+1342793]
+                	Ordinal0 [0x00724512+1393938]
+                	Ordinal0 [0x0071589B+1333403]
+                	Ordinal0 [0x006F1F74+1187700]
+                	Ordinal0 [0x006F2DC9+1191369]
+                	GetHandleVerifier [0x009F30D6+1610054]
+                	GetHandleVerifier [0x00A9B53B+2299307]
+                	GetHandleVerifier [0x008E8DA9+519705]
+                	GetHandleVerifier [0x008E7759+513993]
+                	Ordinal0 [0x007F112D+2232621]
+                	Ordinal0 [0x007F55F8+2250232]
+                	Ordinal0 [0x007F5732+2250546]
+                	Ordinal0 [0x007FE591+2286993]
+                	BaseThreadInitThunk [0x774FFA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77937A7E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77937A4E+238]
+                    at Browser.runCommandWithHooks (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.wrapCommandFn (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Browser.&lt;anonymous> (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\utils\build\shim.js:239:24)
+                    at global.$ (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\runner\build\index.js:190:42)
+                    at HomePage.get subscribeBtn [as subscribeBtn] (C:\Users\61470\Downloads\FrontEndTest\pages\homepage.js:7:38)
+                    at HomePage.clickSubscribe (C:\Users\61470\Downloads\FrontEndTest\pages\homepage.js:25:14)
+                    at Context.&lt;anonymous> (C:\Users\61470\Downloads\FrontEndTest\test\home.element.js:18:14)
+                    at Context.executeSync (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1630832274236' status='broken' stop='1630832274264'>
+            <name>verify language toggle displays language list</name>
+            <title>verify language toggle displays language list</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.63'/>
+            </parameters>
+            <steps>
+                <step start='1630832274237' status='broken' stop='1630832274264'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f4df7536-7700-4576-8715-4654dfb70870-attachment.json' type='application/json' size='111'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=93.0.4577.63)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x0085A2D3+2663123]
+                	Ordinal0 [0x007EA491+2204817]
+                	Ordinal0 [0x006D2118+1057048]
+                	Ordinal0 [0x006BBBC6+965574]
+                	Ordinal0 [0x00717D49+1342793]
+                	Ordinal0 [0x00724512+1393938]
+                	Ordinal0 [0x0071589B+1333403]
+                	Ordinal0 [0x006F1F74+1187700]
+                	Ordinal0 [0x006F2DC9+1191369]
+                	GetHandleVerifier [0x009F30D6+1610054]
+                	GetHandleVerifier [0x00A9B53B+2299307]
+                	GetHandleVerifier [0x008E8DA9+519705]
+                	GetHandleVerifier [0x008E7759+513993]
+                	Ordinal0 [0x007F112D+2232621]
+                	Ordinal0 [0x007F55F8+2250232]
+                	Ordinal0 [0x007F5732+2250546]
+                	Ordinal0 [0x007FE591+2286993]
+                	BaseThreadInitThunk [0x774FFA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77937A7E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77937A4E+238]
+                    at Browser.runCommandWithHooks (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.wrapCommandFn (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Browser.&lt;anonymous> (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\utils\build\shim.js:239:24)
+                    at global.$ (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\runner\build\index.js:190:42)
+                    at HomePage.get langList [as langList] (C:\Users\61470\Downloads\FrontEndTest\pages\homepage.js:10:38)
+                    at Context.&lt;anonymous> (C:\Users\61470\Downloads\FrontEndTest\test\home.element.js:25:21)
+                    at Context.executeSync (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1630832274264' status='broken' stop='1630832274315'>
+            <name>verify player is launched by clicking play on the audio icon</name>
+            <title>verify player is launched by clicking play on the audio icon</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.63'/>
+            </parameters>
+            <steps>
+                <step start='1630832274268' status='broken' stop='1630832274315'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='30fbfc05-2d86-4261-93ec-34907f506f71-attachment.json' type='application/json' size='103'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=93.0.4577.63)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x0085A2D3+2663123]
+                	Ordinal0 [0x007EA491+2204817]
+                	Ordinal0 [0x006D2118+1057048]
+                	Ordinal0 [0x006BBBC6+965574]
+                	Ordinal0 [0x00717D49+1342793]
+                	Ordinal0 [0x00724512+1393938]
+                	Ordinal0 [0x0071589B+1333403]
+                	Ordinal0 [0x006F1F74+1187700]
+                	Ordinal0 [0x006F2DC9+1191369]
+                	GetHandleVerifier [0x009F30D6+1610054]
+                	GetHandleVerifier [0x00A9B53B+2299307]
+                	GetHandleVerifier [0x008E8DA9+519705]
+                	GetHandleVerifier [0x008E7759+513993]
+                	Ordinal0 [0x007F112D+2232621]
+                	Ordinal0 [0x007F55F8+2250232]
+                	Ordinal0 [0x007F5732+2250546]
+                	Ordinal0 [0x007FE591+2286993]
+                	BaseThreadInitThunk [0x774FFA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77937A7E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77937A4E+238]
+                    at Browser.runCommandWithHooks (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.wrapCommandFn (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Browser.&lt;anonymous> (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\utils\build\shim.js:239:24)
+                    at global.$ (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\runner\build\index.js:190:42)
+                    at HomePage.get playBtn [as playBtn] (C:\Users\61470\Downloads\FrontEndTest\pages\homepage.js:11:37)
+                    at HomePage.mediaPlay (C:\Users\61470\Downloads\FrontEndTest\pages\homepage.js:30:14)
+                    at Context.&lt;anonymous> (C:\Users\61470\Downloads\FrontEndTest\test\home.element.js:32:14)
+                    at Context.executeSync (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1630832274315' status='broken' stop='1630832274354'>
+            <name>verify player control actions</name>
+            <title>verify player control actions</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.63'/>
+            </parameters>
+            <steps>
+                <step start='1630832274317' status='broken' stop='1630832274354'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a28e856a-1213-470b-973b-8bb1a8bb1ef2-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=93.0.4577.63)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x0085A2D3+2663123]
+                	Ordinal0 [0x007EA491+2204817]
+                	Ordinal0 [0x006D2118+1057048]
+                	Ordinal0 [0x006BBBC6+965574]
+                	Ordinal0 [0x00717D49+1342793]
+                	Ordinal0 [0x00724512+1393938]
+                	Ordinal0 [0x0071589B+1333403]
+                	Ordinal0 [0x006F1F74+1187700]
+                	Ordinal0 [0x006F2DC9+1191369]
+                	GetHandleVerifier [0x009F30D6+1610054]
+                	GetHandleVerifier [0x00A9B53B+2299307]
+                	GetHandleVerifier [0x008E8DA9+519705]
+                	GetHandleVerifier [0x008E7759+513993]
+                	Ordinal0 [0x007F112D+2232621]
+                	Ordinal0 [0x007F55F8+2250232]
+                	Ordinal0 [0x007F5732+2250546]
+                	Ordinal0 [0x007FE591+2286993]
+                	BaseThreadInitThunk [0x774FFA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77937A7E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77937A4E+238]
+                    at Browser.runCommandWithHooks (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.wrapCommandFn (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Browser.&lt;anonymous> (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\utils\build\shim.js:239:24)
+                    at global.$ (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\runner\build\index.js:190:42)
+                    at HomePage.get fwdIcon [as fwdIcon] (C:\Users\61470\Downloads\FrontEndTest\pages\homepage.js:17:38)
+                    at HomePage.playForward (C:\Users\61470\Downloads\FrontEndTest\pages\homepage.js:47:14)
+                    at Context.&lt;anonymous> (C:\Users\61470\Downloads\FrontEndTest\test\home.element.js:41:18)
+                    at Context.executeSync (C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\61470\Downloads\FrontEndTest\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

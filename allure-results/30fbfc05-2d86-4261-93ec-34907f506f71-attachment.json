@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": " .audiotrack__image.audiotrack__image--hero > button > span"
+}
